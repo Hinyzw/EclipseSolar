@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="capa">
+      <form id="register" action="">
+        <h1>Cadastro</h1>
+        <!--usuario-->
+        <div class="input-box">
+          <input name="username" type="text" placeholder="Digite seu Usuário" />
+          <i class="bx bxs-user"></i>
+        </div>
+         <!--email-->
+        <div class="input-box">
+          <input name="email" type="email" placeholder="Digite seu e-mail" />
+          <i class='bx bxs-envelope'></i>
+        </div>
+        <div class="input-box">
+        <!--CPf-->
+          <input type="tel" id="cpf" name="cpf" placeholder="Digite seu CPF"/>
+          <i class='bx bx-file' ></i>
+          </div>
+        <!--Numero de telefone-->
+        <div class="input-box">
+          <input name="celular" type="tel" maxlength="15" onkeyup="handlePhone(event)" placeholder="Digite seu número de celular"/>
+          <i class='bx bxs-phone'></i>        
+        </div>
+        <!--senha-->
+        <div class="input-box">
+          <input name="passoword" type="password" placeholder="Digite sua Senha" />
+          <i class='bx bxs-lock'></i>
+          </div>
+        <!--confirma a senha-->
+        <div class="input-box">
+          <input name="confirmepassword" type="password" placeholder="Confirme a senha" />
+          <i class="bx bxs-lock-alt"></i>
+          </div>
+        <!--botão de registre-->
+        <button type="submit" class="butao">Registrar</button>
+        <div class="register-link">
+          <p>Tem uma conta? <a href="login.html">Faça Login</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script/main.js"></script>
+</html>

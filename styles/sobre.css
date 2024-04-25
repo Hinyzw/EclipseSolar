@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  flex-flow: column;
+  gap: 50px;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../images/img.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.capa {
+  width: 80%;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border: 10px;
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+.capa h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.img {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.226);
+  padding: 16px 32px;
+  display: flex;
+}
+.content {
+  padding-top: 70px; /* Altura do cabeçalho mais um pouco de espaço */
+}
+.navegacao {
+  display: flex;
+  justify-content: end;
+}
+.navegacao ul {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  padding: 14px;
+  justify-content: end;
+  width: 100%;
+}
+.navegacao ul li a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.navegacao ul li a:hover,
+.navegacao ul li a:focus {
+  color: purple;
+}
+.navegacao ul li a.ativo {
+  color: purple;
+  font-weight: bold;
+}
+
+.butao {
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  width: 100px;
+  height: 50px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.capa1{ 
+  display: flex;
+  flex-flow: row;
+  gap: 8px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border: 10px;
+  padding: 30px 40px;
+}
+  
+footer {
+  display: flex;
+  justify-content: center;
+}
+.img img {
+  margin-right: 20px;
+}
+
+.capa1 a{
+  display: flex;
+  flex-flow: row;
+  gap: 4px;
+  text-decoration: none;
+  color: #fff;
+}
