@@ -1,1 +1,1 @@
-https://hinyzw.github.io/EclipseSolar/
+https://TailyniDev.github.io/EclipseSolar/
